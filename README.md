@@ -1,19 +1,19 @@
 # 📊 Dashboard Checklist 5s - Power BI
 
-Este repositorio contiene un ejemplo real de implementación de un dashboard de Power BI conectado a SQL Server, orientado al análisis de eficiencia operativa (OEE) en entornos industriales.
+Este repositorio contiene un ejemplo real de implementación de un dashboard de Power BI conectado a Power Apps, orientado al análisis de los resultados de las auditorías de 5's
 
 ---
 
 ## 📌 Objetivo
 
-Documentar y compartir un modelo de visualización profesional del OEE (Overall Equipment Effectiveness), incluyendo disponibilidad, eficiencia y calidad, junto con sus comparativos históricos y proyecciones.
+Diseñar un tablero en Power BI para medir y visualizar los resultados de las auditorías 5’s en la planta, permitiendo dar seguimiento al cumplimiento de los estándares, identificar áreas de oportunidad y fomentar la mejora continua en orden, limpieza y disciplina operativa.
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
 - Power BI Desktop (DirectQuery)
-- SQL Server (Consultas a vistas y tablas en producción)
+- Power Apps (Consultas a vistas y tablas en producción)
 - DAX (Medidas complejas para disponibilidad, eficiencia, forecast, etc.)
 - GitHub (para control de versiones y documentación técnica)
 
@@ -22,7 +22,7 @@ Documentar y compartir un modelo de visualización profesional del OEE (Overall 
 ## 📁 Estructura del Repositorio
 
 ```plaintext
-PowerBI-OEE-Coflex/
+Checklist-5S/
 ├── pbix/                                   → Archivo PBIX del tablero
 ├── docs/
 │   ├── README.md                           → Descripción general del repositorio
