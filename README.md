@@ -24,14 +24,11 @@ Diseñar un tablero en Power BI para medir y visualizar los resultados de las au
 ```plaintext
 Checklist-5S/
 ├── pbix/                                   → Archivo PBIX del tablero
+│── README.md                               → Descripción general del repositorio
 ├── docs/
-│   ├── README.md                           → Descripción general del repositorio
-│   ├── Medidas.md                          → Medidas DAX documentadas
-│   ├── Columnas_Calculadas.md              → DAX documentadas
-│   ├── Tablas_Catalogo.md                   → DAX documentadas
-│   ├── Instructivo Dashboard OEE.docx      → Guía de uso del dashboard
-├── sql/ 
-│   └── consulta_fuente_OEE.sql             → Consulta SQL base
+│   ├── ColumnasCalculadas.md               → DAX documentadas
+│   ├── Tablas_DAX.md                       → DAX documentadas
+│   └── video_tutorial.md                   → Guía de uso del dashboard
 ├── img/
 │   ├── preview_dashboard.png               → Captura del dashboard
 │   └── modelo_datos.png                    → Relación entre tablas
